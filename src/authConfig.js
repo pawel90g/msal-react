@@ -80,7 +80,7 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiHello: {
-        endpoint: "https://localhost:5001/weatherforecast",
+        endpoint: "https://apimgmt20220824.azure-api.net/weather/WeatherForecast",
         scopes: ["https://garbacp.onmicrosoft.com/bb833e2b-4617-4012-8f0b-a124bea322d0/Weather.Read"], // e.g. api://xxxxxx/access_as_user
     },
 }
