@@ -41,8 +41,8 @@ export const msalConfig = {
         clientId: "bb833e2b-4617-4012-8f0b-a124bea322d0", // This is the ONLY mandatory field that you need to supply.
         authority: "https://login.microsoftonline.com/9f5749d2-1a60-4dbd-981c-ae949f54a23d",//b2cPolicies.authorities.signUpSignIn.authority, // Choose SUSI as your default authority.
         knownAuthorities: [b2cPolicies.authorityDomain], // Mark your B2C tenant's domain as trusted.
-        redirectUri: "http://localhost:3000", // You must register this URI on Azure Portal/App Registration. Defaults to window.location.origin
-        postLogoutRedirectUri: "http://localhost:3000", // Indicates the page to navigate after logout.
+        redirectUri: "https://thankful-forest-09c977103.1.azurestaticapps.net", // You must register this URI on Azure Portal/App Registration. Defaults to window.location.origin
+        postLogoutRedirectUri: "https://thankful-forest-09c977103.1.azurestaticapps.net", // Indicates the page to navigate after logout.
         navigateToLoginRequestUrl: true, // If "true", will navigate back to the original request location before processing the auth code response.
     },
     cache: {
